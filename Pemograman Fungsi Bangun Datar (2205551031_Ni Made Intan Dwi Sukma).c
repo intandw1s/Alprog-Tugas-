@@ -9,21 +9,18 @@
 float hitung_luas_lingkaran(float jari2){
     float luas_lingkaran;
     luas_lingkaran =  PHI * jari2 * jari2;
-
 return luas_lingkaran;
 }
 
 float hitung_luas_trapesium(float sisi1, float sisi2, float tinggi){
     float luas_trapesium;
     luas_trapesium=(sisi1+sisi2)*tinggi/2;
-
 return luas_trapesium;
 }
 
 float hitung_luas_jajargenjang(float alas, float tinggi){
 	float luas_jajargenjang;
 	luas_jajargenjang = alas*tinggi;
-
 return luas_jajargenjang;
 }
 
@@ -32,19 +29,19 @@ return luas_jajargenjang;
 float hitung_kel_lingkaran(float jari2){
     float kel_lingkaran;
     kel_lingkaran = 2*PHI*jari2;
-	return kel_lingkaran;
+return kel_lingkaran;
 }
 
 float hitung_kel_trapesium(float sisi1, float sisi2, float sisi3, float sisi4){
 	float kel_trapesium;
 	kel_trapesium = sisi1+sisi2+sisi3+sisi4;
-	return kel_trapesium;
+return kel_trapesium;
 }
 
 float hitung_kel_jajargenjang(float sisialas, float sisimiring){
 	float kel_jajargenjang;
 	kel_jajargenjang = 2*(sisialas+sisimiring);
-	return kel_jajargenjang ;
+return kel_jajargenjang ;
 }
 
 
